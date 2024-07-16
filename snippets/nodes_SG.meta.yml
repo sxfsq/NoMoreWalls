@@ -1,184 +1,123 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 18|🇸🇬新加坡04
-  network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 0cb347d5-3ed8-4540-91f6-872a245e2004
-- alterId: 0
-  cipher: auto
-  name: 18|🇸🇬新加坡05
-  network: tcp
-  port: '36206'
-  server: 9s5g05.abzoones.xyz
-  servername: sg05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 0cb347d5-3ed8-4540-91f6-872a245e2004
-- alterId: 0
-  cipher: auto
-  name: 18|🇸🇬新加坡06
-  network: tcp
-  port: '36211'
-  server: 9s5g06.abzoones.xyz
-  servername: sg06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 0cb347d5-3ed8-4540-91f6-872a245e2004
-- alterId: 0
-  cipher: auto
-  name: 21|🔒 VM-WS-NA 🇸🇬 SG-45.76.144.158...
+- name: 12|SG_speednode_0206
   network: ws
-  port: '55081'
-  server: 45.76.144.158
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9c659458-b937-4297-95bd-3cc571c53032
+  port: 2083
+  server: 47.236.232.148
+  servername: go.jp980.cloudns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: b9011be4-b7d5-428e-a4cc-be5cc8768ba4
   ws-opts:
     headers:
-      Host: ''
+      Host: go.jp980.cloudns.org
+    path: /?ed=2560
+- name: 12|SG_speednode_0207
+  network: ws
+  port: 2096
+  server: 47.236.10.182
+  servername: go.jp980.cloudns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: b9011be4-b7d5-428e-a4cc-be5cc8768ba4
+  ws-opts:
+    headers:
+      Host: go.jp980.cloudns.org
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 12|SG_speednode_0208
+  network: ws
+  port: 2087
+  server: 47.236.10.182
+  servername: mositr.freenods.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
+  ws-opts:
+    headers:
+      Host: mositr.freenods.sbs
+    path: /?ed=2560
+- name: 12|SG_speednode_0209
+  network: ws
+  port: 2096
+  server: 47.236.80.110
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: /tg@zdyz2
+- name: 12|SG_speednode_0210
+  network: ws
+  port: 8443
+  server: 47.236.202.91
+  servername: hkm.ylks.link
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      Host: hkm.ylks.link
     path: /
-- alterId: 0
-  cipher: auto
-  name: 21|🔒 VM-WS-NA 🇸🇬 SG-206.238.236.3...
+- name: 12|SG_speednode_0211
   network: ws
-  port: '80'
-  server: 206.238.236.36
-  servername: mysan2.jaquay22.workers.dev
-  tls: false
-  type: vmess
-  uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
-  ws-opts:
-    headers:
-      Host: mysan2.jaquay22.workers.dev
-    path: /gwdef.sbs/linkws
-- alterId: 0
-  cipher: auto
-  name: 21|【直连】狮城 - 2 - A Group
-  network: tcp
-  port: '38756'
-  server: 00000000000000000000000000000000000000000000000000000000000026.agroup-node-for-bigairport.sbs
-  tls: false
-  type: vmess
-  uuid: 843764ed-637a-4085-856e-72c507df3447
-- alterId: 0
-  cipher: auto
-  name: 21|🔒 VM-WS-NA 🇸🇬 SG-139.180.186.6...
-  network: ws
-  port: 37695
-  server: 139.180.186.6
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 8d6be192-c540-4d3f-b773-a31bfbf9a30c
-  ws-opts:
-    headers:
-      Host: android.googleapis.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 21|🔒 VM-WS-NA 🇸🇬 SG-128.199.128.2...
-  network: ws
-  port: '42338'
-  server: 128.199.128.214
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 13e5d814-834b-473a-a87a-15459987f181
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 22|【BGP】新加坡 04 | 1x SG
-  network: tcp
-  port: '31201'
-  server: 1c7s2g04.m1k2s.xyz
-  servername: sg04.lovemc.xyz
+  port: 8443
+  server: 47.236.10.182
+  servername: hkm.ylks.link
   tls: true
-  type: vmess
-  uuid: 09e9361c-3640-4318-b506-2f5db842d67d
-- alterId: 0
-  cipher: auto
-  name: 22|【BGP】新加坡 05 | 1x SG
-  network: tcp
-  port: '31206'
-  server: 1c7s2g05.m1k2s.xyz
-  servername: sg05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 09e9361c-3640-4318-b506-2f5db842d67d
-- alterId: 0
-  cipher: auto
-  name: 22|【BGP】新加坡 06 | 1x SG
-  network: tcp
-  port: '31211'
-  server: 1c7s2g06.m1k2s.xyz
-  servername: sg06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 09e9361c-3640-4318-b506-2f5db842d67d
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 23,24|新加坡3|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: cfcdn2.sanfencdn9.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 657140e4-fb53-4404-80b7-fcbac652671f
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
   ws-opts:
     headers:
-      Host: jpafzyhfsg3.yofnhkfc.xyz
-    path: /video/u4eCZTxW
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 23,24|新加坡2|@ripaojiedian
-  network: ws
-  port: '80'
-  server: sg02.hajimihajimihajimi.online
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: dbf67e8f-eca2-4a01-9c87-c8cfea490a51
-  ws-opts:
-    headers:
-      Host: sg02.xpoti.online
+      Host: hkm.ylks.link
     path: /
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 23|🇸🇬 新加坡|@ripaojiedian
-  password: f665c5d0-77c0-4196-bc8d-f0450e9c665b
-  port: 26601
-  server: service.ouluyun9803.com
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 23|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
+- name: 12|SG_speednode_0212
+  network: ws
+  port: 2083
+  server: 47.236.10.182
+  servername: xinm.ylks.link
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      Host: xinm.ylks.link
+    path: /blue
+- name: 12|SG_speednode_0213
+  network: ws
+  port: 8443
+  server: 27.50.49.232
+  servername: juzibaipiao.5112233.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      Host: juzibaipiao.5112233.xyz
+    path: /?ed=2048
+- name: 12|SG_speednode_0214
+  password: b06d7f06-51ba-402d-991a-3fe1e432247c
   port: 443
-  server: 3.113.1.121
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 23|🇸🇬 狮城特殊2|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 34.217.80.153
-  tfo: false
-  type: ss
+  server: usa.lydurlclub.top
+  skip-cert-verify: true
+  type: trojan
+  udp: false
+- name: 12|SG_speednode_0215
+  network: ws
+  password: 7b06d22a8a7c764f
+  port: 3306
+  server: 5.44.249.43
+  skip-cert-verify: true
+  sni: n2.gladns.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: TG.WangCai_1
+    path: /gateway/connect

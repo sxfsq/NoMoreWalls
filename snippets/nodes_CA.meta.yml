@@ -1,68 +1,49 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 18|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 0cb347d5-3ed8-4540-91f6-872a245e2004
-- alterId: 0
-  cipher: auto
-  name: 21|🔒 VM-WS-TLS 🇨🇦 CA-107.174.241....
+- name: 12|CA_speednode_0024
   network: ws
-  port: '3443'
-  server: 107.174.241.220
-  servername: xray1.freeh1.xyz
-  tls: true
-  type: vmess
-  uuid: f5c180eb-fbce-49ac-9029-482eca9385c0
+  port: 80
+  server: 64.94.86.123
+  servername: a.ssll.gay
+  tls: false
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
-      Host: xray1.freeh1.xyz
-    path: /gzogws
-- alterId: 0
-  cipher: auto
-  name: 21|🔒 VM-TCP-NA 🇨🇦 CA-15.235.49.12...
-  network: tcp
-  port: '48366'
-  server: 15.235.49.129
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f3c167ee-b379-44a4-b3a8-3add749dab15
-- alterId: 0
-  cipher: auto
-  name: 21|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27.21...
-  network: tcp
-  port: '22324'
-  server: 198.57.27.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 22|【BGP】加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.m1k2s.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 09e9361c-3640-4318-b506-2f5db842d67d
-- alterId: 64
-  cipher: auto
-  name: 28|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com3
+      Host: a.ssll.gay
+    path: Twitterfreecodes
+- name: 12|CA_speednode_0023
   network: ws
-  port: 443
-  server: 142.171.237.214
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  port: 80
+  server: 64.94.86.147
+  servername: a.ssll.gay
+  tls: false
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
-      Host: www.23168499.xyz
-    path: /path/221312281009
+      Host: a.ssll.gay
+    path: Twitterfreecodes
+- name: 12|CA_speednode_0021
+  network: ws
+  port: 8443
+  server: 64.94.86.123
+  servername: a.ssll.gay
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: twitterfreecodes
+- name: 12|CA_speednode_0022
+  network: ws
+  port: 2053
+  server: 64.94.86.147
+  servername: a.ssll.gay
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: twitterfreecodes
